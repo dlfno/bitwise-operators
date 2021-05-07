@@ -3,9 +3,9 @@
 // 00000110
 // 00000111
 
-const readPermission = 4;
-const writePermission = 2;
-const executePermission = 1;
+const readPermission = 4;    // 000000100
+const writePermission = 2;   // 000000010
+const executePermission = 1; // 000000001
 
 let myPermission = 0;
 
